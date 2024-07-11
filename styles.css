@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Ricordi';
+    src: url('assets/fonts/TTRicordiTrialNobili.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'DrugsThin';
+    src: url('assets/fonts/TTDrugsTrialThin.otf') format('opentype');
+  }
+
+  @font-face {
+    font-family: 'Agrandir';
+    src: url('assets/fonts/Agrandir-GrandLight.otf') format('opentype');
+  }
+}
